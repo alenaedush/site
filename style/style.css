@@ -1,0 +1,56 @@
+article, footer, header, menu, nav, section, figcaption { display: block; }
+body {
+	line-height: 1.2;
+	font: normal 14px 'Trebuchet MS',Verdana,Arial,"Helvetica CY", "Nimbus Sans L", sans-serif;
+	color:#7c7c7c;
+	background:#fff;
+}
+table,td,th,tr, h1, h2, h3, ul, ol, li, p,form, fieldset, a, img {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+ul {
+	list-style-type:none;
+}
+textarea{
+	padding:2px;
+}
+a {
+	outline: none; 
+	text-decoration: none; 
+	color: #626262;
+	display:block;
+}
+
+
+ b{
+	color:#626262;
+}
+ 
+input {
+	border: 0;
+}
+input[type="text"],input[type="password"]{
+	padding-left: 6px;
+	padding-right: 4px;
+}
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 0 -72px 0; /* отрицательный нижний отступ на высоту футера */
+	padding: 0;
+}
+.footer-push, .fooper{
+	height: 72px;
+	margin: 0;
+	padding: 0;
+}
